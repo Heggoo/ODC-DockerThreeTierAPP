@@ -136,3 +136,12 @@ The Compose file allows us to bring the entire application up or down with a sin
 
 ### 7. Testing and Troubleshooting
 After setting up the environment, we tested the application by accessing it via https://localhost and http://localhost:8000. The Nginx proxy was up and running, forwarding requests to the Go backend, which interacted with the MySQL database. Troubleshooting involved checking logs for each container (docker-compose logs <service>) and ensuring that the correct networks and secrets were configured.
+
+![Screenshot 2024-09-13 161458](https://github.com/user-attachments/assets/215ef27c-d75b-4675-9a3c-d6660767a625)
+
+![Screenshot 2024-09-13 160948](https://github.com/user-attachments/assets/8fbd7ef8-8bcf-4b9c-9083-b7cd74abf47b)
+
+Or you can test it from CLI
+
+![Screenshot 2024-09-13 160959](https://github.com/user-attachments/assets/a6d71525-a937-42ce-ab56-7f7528eed9b4)
+
