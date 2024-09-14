@@ -56,3 +56,4 @@ volumes:
 secrets:
   db-pass:
     file: ./db-pass
+    
