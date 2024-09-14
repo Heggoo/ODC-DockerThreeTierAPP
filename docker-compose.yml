@@ -10,7 +10,6 @@ services:
       - "80:80"
     networks:
       - front-network
-      - back-network
     depends_on:
       - backend
 
@@ -25,7 +24,6 @@ services:
       - DB_PASSWORD_FILE=/run/secrets/db-pass
     networks:
       - back-network
-      - db-network
     secrets:
       - db-pass   
     depends_on:
